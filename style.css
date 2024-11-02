@@ -43,16 +43,20 @@ ol{
     padding: 0;
 }
 
+ul {
+    list-style-type: disc;
+}
+
 #description{
     display: block;
-    font-style: italic;
-    margin-top: 4px;
+    margin: 4px 0px 14px;
+    text-align: center;
 }
 
 .divider {
     width: 100%;
     height: 1px;
-    margin: 40px 0 64px;
+    margin: 40px 0 40px;
     background-color: #d9d9d9;
 }
 
@@ -70,6 +74,7 @@ li > img {
 }
 
 h3{
+    padding-left: 15px;
     font-size: 28px;
     margin: 0px;
 }
@@ -92,4 +97,22 @@ h3{
 
 .blue {
     color: #0C51A7;
+}
+
+#places p {
+    margin: 4px 0px 0px;
+}
+
+#considerations {
+    text-align: center;
+    margin: 0px 0px 87px;
+}
+
+footer{
+    text-align: center;
+}
+footer img{
+    vertical-align: middle;
+    width: 20px;
+    margin-bottom: 0px;
 }
